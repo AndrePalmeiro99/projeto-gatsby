@@ -55,15 +55,15 @@ const PiadaForm = () => {
           </label>
           <label>
             Título da piada:
-            <input type="text" name="titulo" {...register("titulo da piada", { required: true, maxLength: 100 })} />
+            <input type="text" name="titulo" {...register("assunto", { required: true, maxLength: 100 })} />
           </label>
           <label>
             Piada(ou link da piada,caso seja uma imagem):
-            <textarea name="piada" rows="5" {...register("piada", {required: true, maxLength: 200})} />
-            {errors.piada && errors.piada.type === "required" && (
+            <textarea name="piada" rows="5" {...register("mensagem", {required: true, maxLength: 200})} />
+            {errors.mensagem && errors.mensagem.type === "required" && (
               <span className="erro">&nbsp;Por favor,adicione uma piada.</span>
             )}
-            {errors.piada && errors.piada.type === "maxLength" && (
+            {errors.mensagem && errors.mensagem.type === "maxLength" && (
               <span className="erro">&nbsp;Piada pode ter 200 caracteres no máximo.</span>
             )}
           </label>
