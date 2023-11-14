@@ -16,7 +16,7 @@ const PiadaForm = () => {
     fetch("/", {
       method: "POST",
       headers: { "Content-Type": "application/x-www-form-urlencoded" },
-      body: encode({ "form-name": "form_hook", ...dados })
+      body: encode({ "form-name": "Piadas", ...dados })
     }).then(() => {
       alert("Em breve sua piada estará na página. Obrigado por compartilhar!");
       reset();
@@ -29,7 +29,7 @@ const PiadaForm = () => {
       <div className="container">
         <form name="Piadas" method="post" onSubmit={handleSubmit(onSubmit)}
           data-netlify="true" data-netlify-honeypot="bot-field">
-          <input type="hidden" name="form-name" value="form_hook" />
+          <input type="hidden" name="form-name" value="Piadas" />
           <label>
             Nome
             <input type="text" name="nome" {...register("nome", { required: true, maxLength: 20 })} />
