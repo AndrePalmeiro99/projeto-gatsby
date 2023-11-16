@@ -100,11 +100,13 @@ input[type=text], input[type=email], select, textarea {
 
   h1, h2 {
     color: #333;
+    text-align: center;
   }
 
   p {
     color: #666;
     line-height: 1.38;
+    text-align: center;
 }
 
 .footer {
@@ -112,4 +114,55 @@ input[type=text], input[type=email], select, textarea {
     padding: 10px;
     text-align: center;
     color: black;
+}
+
+.post {
+  background-color: #eee;
+  margin: 0.5rem;
+  padding: 0.5rem;
+}
+
+.conteiner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+} 
+
+.pagination {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  cursor: pointer;
+  width: 40%;
+  align-items: center;
+}
+
+.pagination a {
+  padding: 10px;
+  border-radius: 5px;
+  border: 2px solid #2E86C1;
+}
+
+.item_archive {
+  font-weight: bold;
+}
+
+.posts {
+  max-width: 600px;
+    margin: 1em auto;
+    padding: 1em;
+    background-color: #FFFFFF;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.pagination-container {
+  display: flex;
+  justify-content: center;
+}
+
+.image-container {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0; /* Ajuste conforme necessário */
 }
