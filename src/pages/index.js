@@ -15,7 +15,7 @@ const IndexPage = () => {
       <h2>O que Oferecemos</h2>
       <p>Navegue pelas diversas seções do nosso site para descobrir uma coleção única de piadas hilárias que certamente farão você rir ou mergulhe nas profundezas da inspiração com nossas poderosas frases motivacionais.</p>
 
-      <h2>Junte-se à Diversão! aaaaa</h2>
+      <h2>Junte-se à Diversão!</h2>
       <p>Estamos aqui para proporcionar momentos leves e positivos. Sinta-se à vontade para explorar, compartilhar com amigos e familiares, e não se esqueça de dar uma olhada nas atualizações regulares com novas piadas e frases que certamente iluminarão o seu dia.</p>
     </section>
   </div>
